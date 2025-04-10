@@ -1,0 +1,66 @@
+﻿.bordure
+{
+    background-image: url(image/avion.jpg);
+    padding: 10px 50PX;
+    background-image: no-repeat;
+    
+}
+.taille
+{
+    border:3px balck double;
+    border-radius: 9px;
+    width:50%;
+    height: 97%;
+    background-color:aliceblue;
+    opacity:0.7;
+    background-image: fixed;
+}
+.premier
+{
+    border:1px black solid;
+    border-radius: 10px;
+    width:100%;
+    background-color: rgb(217,108,0);
+    text-decoration-color: black;
+    text-align: center;
+    font-family: setif;
+    padding:0PX 0PX 0PX;
+opacity:0.6;
+    color:white;
+}
+.valide
+{
+    background-color:BLACK;
+    color:WHITE;
+    
+}
+.table
+{
+    color:white;
+    font-family: serif;
+    text-align: LEFT;
+}
+.a
+{
+    text-align:left;
+    Color:white;
+}
+
+.retour
+{
+    font-weight: bold;
+}
+}
+.position
+{
+    text-align:right;
+}
+
+.deuxieme
+{
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    font-family: arial;
+}
