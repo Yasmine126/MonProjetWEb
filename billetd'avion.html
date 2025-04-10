@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html> >
+<html>
+<head>
+    <title>billetd'avion</title>
+    <meta  charset="utf-8">
+    <link rel="stylesheet" href="css/billetd'avion.css"/>
+       <script language="JavaScript">
+
+ function controlform()
+  {
+   
+   if(document.formulaire.objet.value == "")
+    {
+     alert("Veuillez entrer l'objet de votre demande!");
+     document.formulaire.objet.focus();
+     return false;
+    }
+       if(document.formulaire.numero.value == "")
+    {
+     alert("Veuillez entrer votre numero de dossier!");
+     document.formulaire.numero.focus();
+     return false;
+    }
+        if(document.formulaire.date.value == "")
+    {
+     alert("Veuillez entrer la date de votre depart!");
+     document.formulaire.date.focus();
+     return false;
+    }
+  
+  if(document.formulaire.radio.value=="")
+      {
+          alert("veuillez choisir!");
+          document.formulaire.radio.focus();
+          return false;
+      }
+         if(document.formulaire.nom.value == "")
+    {
+     alert("Veuillez entrer votre nom!");
+     document.formulaire.nom.focus();
+     return false;
+    }
+             if(document.formulaire.prenom.value == "")
+    {
+     alert("Veuillez entrer votre prenom!");
+     document.formulaire.prenom.focus();
+     return false;
+    }
+   if(document.formulaire.email.value == "")
+    {
+     alert("Veuillez entrer votre adresse électronique!");
+     document.formulaire.email.focus();
+     return false;
+    }
+              if(document.formulaire.email.value.indexOf('@') == -1)
+    {
+     alert("Ce n'est pas une adresse électronique valable!");
+     document.formulaire.email.focus();
+     return false;
+    }
+   if(document.formulaire.téléphone.value == "")
+    {
+     alert("Veuillez entrer votre numero de téléphone!");
+     document.formulaire.téléphone.focus();
+     return false;
+    }
+   }
+ </script>
+    <style>
+    .bordure
+{
+    background-image: url(image/avion.jpg);
+    padding:10px 50px;
+background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+        .taille{
+            background-color:white;
+            opacity:0.8;
+            
+        }
+      
+h3{
+    font-family: arial;
+}
+
+    </style>
+    </head>
+    <body class="bordure">
+        <h1 class="premier"style="font-family:arial;text-shadow:2px 2px 5px black;">Pour reserver veuillez remplir ce formuliare:</h1>;
+        
+           <P class="a"> 
+        <h3 style="color:white ;font-family:cursive;">pour des prix imbatables ,c'est l'occasion ou jamais</h3>
+        
+        <p class=a><h4 style="color:white;font-family:cursive;">Endroits ideal ou sejourner sans regret</h4>
+        <section class="taille"style="width:70%;">
+
+        <p class="position">   
+            <button style="color:white;background-color:black;opacity:0.7;"onclick="return controlform()">Envoyer</button>
+               </p>   
+ <form name="formulaire" action="">
+   
+    <h3>  <li><label for="pseudo">Objet de votre demande:&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</label><input style="background-color=white" type="text" name="objet"/></li></h3>
+   
+   <h3> <li class="changer"><label for="pseudo">Indiquer votre numero de dossier:&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label><input type="number"placeholder="numero" min="0" name="numero"/></li></h3>
+ <h3> <li><label for="pseudo">Indiquer la date de votre depart:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</label><input type="date" placeholder="JJ/MM/AA" name="date"/></li></h3>
+  <h1 class="deuxieme">Vos cordonnées</h1>    
+            <li> <label for="pseudo"><span style="font-weight:bold;font-size:18px;font-family:arial;">Civilité:</span></label><input type="radio"name="radio"/><span style="font-weight:bold;font-size:18px;font-family:arial;">Mr</span><input type="radio"name="radio"/><span style="font-weight:bold;font-size:18px;font-family:arial;">Mme</span><input type="radio"/name="radio"><span style="font-weight:bold;font-size:18px;font-family:arial;">Mlle</span></li>
+            <h3><li><label for="pseudo">Nom:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</label><input name="nom" type="text" placeholder="entrer votre nom"/></li></h3>
+                    <h3><li><label for="pseudo">Prenom:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text"placeholder="entrer votre prenom" name="prenom"/></li></h3>
+        
+                <h3><li><label for="pseudo">Adresse Email:&nbsp;</label><input name="email" type="email" placeholder="entrer votre Email"/></li></h3>
+                <h3><li><label for="pseudo">Téléphone:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</label><input type="tel" placeholder="entrer votre numéro de tél" name="téléphone"/></li></h3>
+                <h1>Champs obligatoire</h1>
+            <br>
+            
+            
+
+            </form></section>
+            
+            <p class="retour"><h4 style="color:white">Revenir a :<a href="I TRAVEL.html">la page d'acceuil</a></h4>
+        </P></body></html>

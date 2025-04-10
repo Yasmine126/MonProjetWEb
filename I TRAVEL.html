@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <title>ITravel.com</title>
+    <meta charset=utf-8>
+    <link stylesheet="voyage.css">
+    <link rel="stylesheet" href="css/styletravel.css">
+    <script src="script.js"> </script>
+  
+  
+      <script language="javascript">
+
+
+   function rempliform(){
+       if(document.formul.voyage.value== ""){
+   alert("veuillez choisir l'une des proposition svp!");
+       document.formul.voyage.focus();
+       return false;
+   }
+   if(document.formul.De.value== ""){
+   alert("veuillez saisir votre point de départ!");
+       document.formul.De.focus();
+       return false;
+   } if(document.formul.A.value== ""){
+   alert("veuillez saisir votre destination!");
+       document.formul.A.focus();
+       return false;
+   } 
+   }</script>
+  </head>
+<body ><div class="bod"style="width:100%;height:40%;"> 
+    
+    
+        
+    <h1 style="font-size:50px;color:white;text-shadow:2px 2px 4px;padding:0;margin:0;"><span style="color:white;font-weight:bold;font-style:italic;font-family:arial;">&nbsp;I Travel</span></h1><br>
+     <nav>
+            <ul>
+                <li> <a href="I TRAVEL.html">Accueil</a></li>
+                <li> <a href="Déstination.html"> Déstination</a></li>
+                <li> <a href="villa.html" > Villas</a></li>
+                  <li> <a href="reservationhotel.html"> Réservation hotels|villas</a> </li>
+                <li> <a href="billetd'avion.html" > Billets d'avion</a></li>
+                </ul>
+   
+               
+            
+    </nav>
+        <br>
+       <span> <p style="font-size:35px;color:black;font-weight:bold;font-style:italic;text-align:center;text-shadow:2px 2px 4px white;"> &nbsp; &nbsp; &nbsp;&nbsp;Pour telles offres, pour telles conditions, c'est juste sur I Travel, alors réservez maintenant ...
+        </p> </span>
+        <form action="" name="formul">
+        <table style="background-color:azure;opacity:0.6;margin-right:10%;margin-left:10%;">
+            <tr><td>  <span style="font-family:arial;padding-right:15px;">Désirez-vous faire un voyage</span></td><td> <select  style="color:blue; background-color:azure;"name="voyage"><option></option><option> Aller-retour</option><option>Aller</option><option>Multidestination</option></select></td></tr><br>
+            
+            <td> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<span style="font-family:arial;">De</span></td>
+          
+            <td><input type="texte" placeholder="choisissez" name="De" style="color:blue; background-color:azure;"></td><td> &nbsp; <span style="font-family:arial;">Aller</span></td><td><select placeholder="Anneé"  style="color:blue; background-color:azure;">
+        
+        <option>2023</option><option>2024</option><option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option></select><td><select  style="color:blue; background-color:azure;"><option>Janvier</option><option>Féverier</option><option>Mars</option><option>Avril</option><option>Mai</option><option>Juin</option><option>Juillet</option><option>Aout</option><option>Séptembre</option><option>Octobre</option><option>Novombre</option><option>Décembre</option></select>
+        </td><td><select  style="color:blue; background-color:azure;"><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select></td>
+        <tr><td>
+    
+            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <span style="font-family:arial;">A</span></td>  <td><input type="texte"placeholder="choisissez" name="A" style="color:blue; background-color:azure;"></td><td> &nbsp;<span style="font-family:arial;">Retour</span></td><td> <select  style="color:blue; background-color:azure;"> <option>2023</option><option>2024</option><option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option>
+            </select></td><td><select  style="color:blue; background-color:azure;"><option>Janvier</option><option>Féverier</option><option>Mars</option><option>Avril</option><option>Mai</option><option>Juin</option><option>Juillet</option><option>Aout</option><option>Séptembre</option><option>Octobre</option><option>Novombre</option><option>Décembre</option></select>
+            </td><td><select  style="color:blue; background-color:azure;"><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select></td><td>
+            <input type="button" value="Rechercher" onClick="return rempliform()" style="color:white;padding:10px; background-color:red;border-radius:10px;margin:15px;"></td></tr></table><br><br><br><br><br><br></form>
+            <footer style="width:1500px;padding-top:50px;">
+                <em style="font-size:15px;font-weight:bold;"class="site"><span style="font-family:arial;">Si vo us voulez nous contacter </span><a href="nouscontacter.html" class=m style="color:black;font-size:15px;text-decoration:none;"><span style="font-family:arial;text-decoration:underline;">cliquez ici... </span></a></em>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<em class="site"> <span style="font-family:arial;font-weight:bold;"> Vous pouvez nous suivre aussi sur:</span>&nbsp;&nbsp;</em><img src="image/fb.ico" style="height:20px;width:20px;">&nbsp;&nbsp;<img src="image/gmail.png" style="height:20px;width:20px;">&nbsp;&nbsp;<img src="image/twitter.png" style="height:20px;width:20px;"> 
+                     </footer><br>
+ </div>
+   <h1 style="color:red;font-size:40px;font-style:italic;font-weight:bold;font-family:cursif;text-shadow:2px 4px 4px black;" id="#Profitez-aussi-de-nos-promos"><p style="font-weight:bold;">Profitez aussi de nos promos</p></h1>
+<table style="border:solid red;width:100%;padding:10px;border-radius:20px;">
+          <tr>  <a href="#"><em style="color:black;font-size:20px;display:inline-block;padding:0;margin:0;" class="voyage" >Séjour  en Malaisie</em></a></tr>
+    <tr> <td style="background-image:url(image/malaisie.jpg);background-repeat:no-repeat;background-size:cover;display:inline-block;height:200px;width:240px;border-radius:0;">
+              
+         <em style="back"><em style="color-white;background-color:red; opacity:0.8;font-size:20px;">100 euros</em><br/><em style="color:black;font-size:30px;text-align:right;">  <a href="ITravel.com.html" style="padding-top:145px;" class="site">ITravel.com</a></em></em></td>
+  
+                   <td style="font-familly:arial;font-size:15px;"><span class=pro>Ce voyage tourne autour de<br> 2 fameuses villes de la Malaisie:<br>Kuala Lumpourç et Langkawi<a href="hotelmalaisie.html" style="color:coral;font-style:italic;" class="voyage">Malaisie</a>. <br/>A seulement <em style="color:red;"> 40 euros</em><br/>
+        Durée: 9nuitées/7jrs<br/></span></td>
+      <td ><span class=pro>
+        &nbsp;&nbsp;&nbsp;&nbsp;Les tarifs incluent:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Hebergement de 5 nuits à Kuala Lumpour,<br>&nbsp;&nbsp;&nbsp;&nbsp;
+       Hebergement de 4nuits à Langkawi,<br>&nbsp;&nbsp;&nbsp;&nbsp;
+        petit déjeuner chaque matin,<br>&nbsp;&nbsp;&nbsp;&nbsp;
+       Transfert d'aéroport<br>&nbsp;&nbsp;&nbsp;&nbsp; à Kuala Lumpour et Langkawi,
+       Billet d'avion:<br>&nbsp;&nbsp;&nbsp;&nbsp;Kuala Lumpour et Langkawi,
+          Taxe de séjour.
+          </span>
+        </td>
+   </tr>
+   </table>    
+     
+          <table style="border:solid red; width:100%;border-radius:20px;padding:10px;">
+               <tr><a href="#"><em style="color:black;font-size:20px;display:inline-block;padding:0;margin:0;" class="voyage" >Voyage organisé en Thailande</em></a></tr>
+              
+              <tr><td style="background-image:url(image/phi-phi.jpg);background-repeat:no-repeat;background-size:cover;display:inline-block;height:200px;width:240px;border-radius:0;"><em style="color:white;background-color:red; opacity:0.8;font-size:25px;">120 euros</em><br/><em style="color:black;font-size:30px;">  <a href="ITravel.com.html" class="site" style="text-align:right;text-align:bottom;padding-top:140px;">ITravel.com</a></em></td>
+ 
+               
+                  <td style="font-familly:arial;font-size:15px;"><span class=pro>I Travel vous offre un voyage de réve en<br>  <a href="hotelthailande.html" style="color:coral;font-style:italic;" class="voyage"> Thailande</a>  dans un hotel 4* à Bangkok  pour <br>l'été 2023 avec Air france deux départs sont <br>prévus du 10/07/2023 au 21/07/2023 et du<br> 13/07/2023 au 24/07/2023 <br> 
+         Au programme:<br>
+        
+             3 nuits Bangkok à l'hotel:one bangkok 4*,<br>
+             5 nuits Pucket à l'hotel:Slip With Me Pucket 4*,<br>
+                      1 nuit Phi Phi island à l'hotel:<br>Phi Phi island Cabanna 4*,</span></td>
+             <td><span class=pro>ce tarif inclus:
+             
+             Billet d'avion,
+             Visa,<br>
+             City Tour Bangkok,
+        
+             Transfert Pucket-Phi<br> Phi-Pucket par  bateau,
+            <br>
+             Visite en bateau sur<br>la riviére Chao Phraya à Bangkok,<br>
+             le palais royal vimamnek<br>palace, etles temples qui <br>l'entoure,
+                 Visite du<br>grand atelier de pierres <br>précieuses,</span>
+ </td></tr>
+      
+      </table>
+   <table style="border:solid red;width:100%;padding:10px;border-radius:20px;">
+            <tr><a href="#"><em style="color:black;font-size:20px;display:inline-block;padding:0;margin:0;" class="voyage" >Séjour à Sydney</em></a></tr>
+         <tr><td style="background-image:url(image/sydney.jpg);background-repeat:no-repeat;background-size:cover;display:inline-block;border-radius:0;width:240px;height:200px;"><em style="color:white;background-color:red; opacity:0.8;font-size:25px;">150 euros</em><br/><em style="color:black;font-size:30px;"> <a href="ITravel.com.html" class="site" style="text-align:right;padding-top:140px;">ITravel.com</a></em></td>
+       <td style="font-familly:arial;font-size:15px;"><span class=pro>Nous vous offrons la chance de<br> passer d'agréables et mémorables<br> vaccances à <a href="hotelaustralie.html" style="color:coral" class="site">Sydney</a> ,deux départs sont<br> prévus
+         du 12/08/2023 au 20/08/2023 <br>et du 16/08/2023 au 24/08/2023<br/>
+      
+             Durée :7nuitées/8jrs<br/>
+             Hotel Sydney Ibis Budjet Melbourne<br/></span></td>
+            <td><span class=pro> Au programme:<br>
+           
+             
+             petit déjeuner au bord de la piscine<br> chaque matin,
+             Visite de l'Opéra Sydney,<br>
+             Visite des quartiers historiques<br> de Darling Harbour et The Rocks accompagnée<br> d'un guide touristique, 
+             Visite du grand <br>aquarium de Sydney,
+             Baignade dans les plages <br>dorées de Bondi,
+                Un tour au Royal<br> Botanic Gardens qui abrite<br> des milliers d'éspéces de plantes<br></span> </td>
+
+                 </tr>
+       </table>
+ 
+    <br>
+
+    </body>
+    
+</html>
